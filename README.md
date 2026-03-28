@@ -2,6 +2,7 @@
 Open Data from the Chattanooga Area Regional Transportation Authority
 
 ## list of open datasets
+
 | name | description | map | sql |
 | ---- | ----------- | --- | ---- |
 | [Bike Chattanooga Stations](https://github.com/gocarta/dataops-bike-chattanooga-stations) | Near Real-Time Information on all Bike Chattanooga Stations | [map](https://geojson.io/#data=data:text/x-url,https://gocarta.s3.us-east-2.amazonaws.com/public/data/bike_chattanooga_stations/v1/data.points.geojson) | [sql](https://shell.duckdb.org/#queries=v0,CREATE-TABLE-dataset-AS-SELECT-*-FROM-'s3://gocarta/public/data/bike_chattanooga_stations/v1/data.parquet'~,Describe-dataset~) |
